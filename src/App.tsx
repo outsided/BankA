@@ -38,10 +38,10 @@ function App() {
         </div>
         <div className={styles.Content}>
            <ul className={styles.c_first}>
-            <li><b>365 дней без %</b><span className={styles.li_span}>на покупки без процента</span></li>
-            <li><b>До 50 000 ₽ наличными</b><span className={styles.li_span}>без комиссии каждый месяц</span></li>
-            <li><b>0 ₽ за обслуживание</b><span className={styles.li_span}>и так будет всегда</span></li>
-            <li><b>Суперкэшбэк каждый месяц</b><span className={styles.li_span}>до 100% на случайную категорию</span></li>
+            <li><b>365 дней без %</b><br/>на покупки без процента</li>
+            <li><b>До 50 000 ₽ наличными</b><br/>без комиссии каждый месяц</li>
+            <li><b>0 ₽ за обслуживание</b><br/>и так будет всегда</li>
+            <li><b>Суперкэшбэк каждый месяц</b><br/>до 100% на случайную категорию</li>
            </ul>
           <div className={styles.c_second}></div>
           <div className={styles.c_thirt}></div>
@@ -53,6 +53,7 @@ function App() {
             <a href='' className={styles.footerSpan}>Вклады</a>
             <a href='' className={styles.footerSpan}>Эквайринг</a>
             <a href='' className={styles.footerSpan}>Открытие и ведение счёта</a>
+            <div>ttttttttttttttttttttttttttttttttttttttttttttttttttttt</div>
           </div>
         </div>
         <div className={styles.Footer}>

@@ -26,6 +26,7 @@
 .headerContent1{
   flex-shrink: 6;
 }
+
 .header_first{
   position: relative;
   max-width: 1180px;
@@ -73,6 +74,7 @@
   list-style: none;
 }
 li{
+  padding: 20px;
   font-size: 20px;
 }
 .li_span{
