@@ -38,13 +38,31 @@ function App() {
         </div>
         <div className={styles.Content}>
            <ul className={styles.c_first}>
-            <li><b>365 дней без %</b><br/>на покупки без процента</li>
-            <li><b>До 50 000 ₽ наличными</b><br/>без комиссии каждый месяц</li>
-            <li><b>0 ₽ за обслуживание</b><br/>и так будет всегда</li>
-            <li><b>Суперкэшбэк каждый месяц</b><br/>до 100% на случайную категорию</li>
+            <li className={styles.c_first_li}><b>365 дней без %</b><br/>на покупки без процента</li>
+            <li className={styles.c_first_li}><b>До 50 000 ₽ наличными</b><br/>без комиссии каждый месяц</li>
+            <li className={styles.c_first_li}><b>0 ₽ за обслуживание</b><br/>и так будет всегда</li>
+            <li className={styles.c_first_li}><b>Суперкэшбэк каждый месяц</b><br/>до 100% на случайную категорию</li>
            </ul>
           <div className={styles.c_second}></div>
           <div className={styles.c_thirt}></div>
+        </div>
+        <div className={styles.c_middle}>
+          <div className={styles.c_middle_card}>
+            <h3 className={styles.c_middle_card_h2}>Кэшбэк за любые покупки по кредитке</h3>
+            <span>Каждый месяц получайте:</span>
+            <ul>
+              <li className={styles.c_card_li}><span>до 100% в барабане суперкэшбэка</span></li>
+              <li className={styles.c_card_li}><span>5% в 3 категориях на выбор: супермаркеты, такси, рестораны и другие</span></li>
+              <li className={styles.c_card_li}><span>1% за все остальные покупки</span></li>  
+            </ul>
+            <button className={styles.c_middle_buttone}>Хочу кещбек</button>
+          </div>
+          <div className={styles.c_middle_card}>
+            <h3 className={styles.c_middle_card_h2}>Вечное бесплатное обслуживание</h3>
+            <span>Закажите нашу лучшую кредитку до 31 января и получите бесплатное обслуживание навсегда и без условий</span>
+            <button className={styles.c_middle_butt}>Получить карту</button>
+
+          </div>
         </div>
         <div className={styles.overFooter}>
           <div className={styles.ofContent}>
@@ -55,6 +73,7 @@ function App() {
             <a href='' className={styles.footerSpan}>Открытие и ведение счёта</a>
           </div>
         </div>
+        
         <div className={styles.Footer}>
           <div>Footer</div>
         </div>

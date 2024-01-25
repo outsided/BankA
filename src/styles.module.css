@@ -1,7 +1,7 @@
 *{margin:0;padding:0;box-sizing: border-box;}
 
-.App{
-  
+span{
+  color: aliceblue;
 }
 .App_header{
   display: flex;
@@ -69,22 +69,72 @@
   max-width: 1180px;
   background-color: rgb(255, 255, 255);
 }
+
 .c_first{
+  margin: 50px;
   display: flex;
   list-style: none;
 }
-li{
-  padding: 20px;
-  font-size: 20px;
+.c_first_li{
+  padding: 40px;
 }
 .li_span{
   padding: 2px;
   font-size: 15px;
 }
+.c_card_li{
+  text-decoration: aliceblue;
+  color: brown;
+  padding-left: 10px;
+}
+.c_middle{
+  display: flex;  
+  justify-content: center;
+  color:beige
+ }
+ .c_middle_card{
+   height: 300px;
+   position: relative;
+   width: 600px;
+   border-radius: 10px;
+   margin: 20px;
+   padding: 10px;
+   background-color: black;
+ }
+.c_middle_butt{
+  font-size: 23px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(175, 13, 13);
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border:none;
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+.c_middle_buttone{
+  font-size: 23px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(175, 13, 13);
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  border:none;
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+.c_middle_card_h2{
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .content_head{
   max-width: 1180px;
-
- text-align: center;
+  text-align: center;
 }
 .content_one{
     display: inline-block;
@@ -105,7 +155,6 @@ li{
   max-width: 1180px;
 }
 .footerSpan{
-  
   color: rgb(221, 207, 207);
   padding: 20px;
   text-decoration: none;
