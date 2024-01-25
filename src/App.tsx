@@ -53,11 +53,8 @@ function App() {
             <a href='' className={styles.footerSpan}>Вклады</a>
             <a href='' className={styles.footerSpan}>Эквайринг</a>
             <a href='' className={styles.footerSpan}>Открытие и ведение счёта</a>
-            <div>dasdasda</div>
-            <div>two</div>
           </div>
         </div>
-        <div>dddddddddd</div>
         <div className={styles.Footer}>
           <div>Footer</div>
         </div>
