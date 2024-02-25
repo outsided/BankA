@@ -1,16 +1,11 @@
 import React from 'react';
-
 import styles from "./styles.module.css";
-//import {useState} from 'react'
-//import {Count} from './models'
+import {useState} from 'react'
 
 function App() {
+  const [state,setState] = useState('Anya')
 
 
-//   const [count, setCount] = useState({id:1,discription: 'описание', else: 'что то еще'})
-//  function sum() {
-//     setCount(() => count.id + 1 )
-//  }
   return (
     <div className={styles.App}>
       
@@ -20,21 +15,19 @@ function App() {
             <div  className={styles.headerContent}>
               <span className={styles.span_header}>Кредитная карта с целым годом без %</span>
               <span className={styles.span1_header}>Бесплатная навсегда и суперкэшбэк каждый месяц</span>
-              <button className={styles.but_head}>Получить карту</button>
+              <button className={styles.but_head}>Получить карту</button> 
             </div>
 
             <div  className={styles.headerContent1}>
-                  <img src='imges/main.jpg'></img>              
+                  <img src='imges/main.jpg'></img>
+                  <input className={styles.inp} placeholder={state} value={state} onChange={e => setState(p => p = e.target.value)}></input>   
+                  <div>{state}</div>           
             </div>
           </div>
           <div className={styles.header_seccond}>
 
           </div>
           <span className={styles.logo_header}><img className={styles.img_logo} src='imges/logo.jpg' alt='logo'></img></span>
-          {/* <div>{count.id}</div>
-          <div>{count.discription}</div>
-          <div>{count.else}</div>
-          <button className='but' onClick={sum}>{count.id}</button> */}
         </div>
         <div className={styles.Content}>
            <ul className={styles.c_first}>

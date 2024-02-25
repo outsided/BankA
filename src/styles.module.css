@@ -82,6 +82,12 @@ span{
   padding: 2px;
   font-size: 15px;
 }
+.inp{
+  width: 200px;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+}
 .c_card_li{
   text-decoration: aliceblue;
   color: brown;
